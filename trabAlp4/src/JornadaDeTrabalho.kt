@@ -9,7 +9,7 @@ class JornadaDeTrabalho{
 	//Expressao Regular do Empregado
     val patternEmpregado = ";Empregado:".toRegex()
 	//Expressao Regular dos dias
-    val patternDia = Regex("""\d{2}/\d{2} - \w{3}\;{3}\d{2}:\d{2}.+""")
+    val patternDia = Regex("""\d{2}/\d{2} - \w{3}\;{3}.+""")
 	//Expressao Regular da jornada de Trabalho
     val patternJornada = Regex(""";Jornada.+ Abono\;{7}Jornada total\;{4}\d{2}:\d{2}""")
 
